@@ -96,7 +96,6 @@ bot.on('callback_query', function(msg) {
     }
 });
 
-
  function Creattt(url_img,body,messageChatId){
     fs.writeFile(url_img, body, 'binary', function(err) {
         if(err)
