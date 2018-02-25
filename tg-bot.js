@@ -20,8 +20,6 @@ var options = {
   };
 
 bot.on('message', function(msg) {
-    // console.log("msg.text >", msg.caption);
-    // console.log('msg.photo>', msg.photo);
     var messageChatId = msg.chat.id;    
     var messageText = msg.text;
     var idUser = msg.from.id;
